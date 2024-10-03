@@ -1,10 +1,7 @@
-n = int(input("Введите количество школьников:"))
-k = int(input("Введите количество яблок: "))
-
-yabloki = k // n
-ostatok = k - yabloki*n
-
-
-print(yabloki)
-print ("По ", yabloki, "каждому школьнику.")
-print(ostatok, "яблок останется в корзине.")
+a = float(input("Введи первую сторону:"))
+b = float(input("Введи вторую сторону:"))
+c = float(input("Введи третью сторону:"))
+if a > b+c or b > a+c or c > a+b:
+    print("Треугольник не существует")
+else:
+    print("Треугольник существует")
